@@ -1,0 +1,159 @@
+/*
+ Theme Name:     Divi Child
+ Theme URI:
+ Description:      Divi Child Theme
+ Author:
+ Author URI:  
+ Template:       Divi
+ Version:        1.0.0
+ License: 
+ License URI: 
+ Tags: 
+ Text Domain:
+*/
+
+div#homepage-hero-row .et_pb_row {
+    padding-top: 0 !important;
+}
+
+.container.et_menu_container {
+    height: 80px !important;
+	z-index: 100;
+}
+
+.et-fixed-header .container.et_menu_container {
+    height: 60px !important;
+}
+
+div#et-top-navigation {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+}
+
+#et-secondary-nav li ul, #top-header {
+    background-color: white !important;
+	z-index: 9;
+}
+
+#top-header a:link,
+#top-header a:visited {
+    background-color: #02405a;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+#top-header a:hover, #top-header a:active {
+    background-color: #0b6283;
+}
+
+#main-header .fixed-nav-only {
+	display: none;
+}
+
+#main-footer {
+    background-color: rgba(0,0,0,0);
+    height: 30vw;
+    background-image: url(http://sfcamft.knightlabs.co/wp-content/uploads/2017/09/sfcamft-wave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10vw;
+    position: relative;
+}
+
+#footer-bottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+@media only screen and (max-width: 979px) {
+    /* For mobile phones: */
+    #logo {
+    	display: none;
+    }
+	#logo.second-logo {
+		display: inline-block !important;
+	}
+}
+
+@media all and (min-width: 980px){
+	/*********************************
+	show, hide, and transition logos for primary and fixed nav;
+	must have second logo in header.php file for this to work
+	**********************************/
+	#logo {
+		opacity:1;
+		display:inherit;
+		margin: 0 0 0 0;
+		-webkit-transition: all .4s ease-in-out;
+		-moz-transition: all .4s ease-in-out;
+		transition: all .4s ease-in-out;
+	}
+	#logo.second-logo {
+		opacity:0;
+		margin: 0 0 -200px -130px;
+		-webkit-transition: all .4s ease-in-out;
+		-moz-transition: all .4s ease-in-out;
+		transition: all .4s ease-in-out;
+	}
+	.et-fixed-header #logo {
+		opacity: 0;
+		margin: -200px 0px 0 0px;
+		-webkit-transition: all .4s ease-in-out;
+		-moz-transition: all .4s ease-in-out;
+		transition: all .4s ease-in-out;
+ 
+	}
+	.et-fixed-header #logo.second-logo {
+		opacity:1;
+		margin: 0 0 0 -90px !important;
+		-webkit-transition: all .4s ease-in-out;
+		-moz-transition: all .4s ease-in-out;
+		transition: all .4s ease-in-out;
+	}
+ 
+	/*********************************
+	hides overflow on header container so logo doesn't show outsite header on transition
+	*********************************/
+	body.et_fixed_nav.et_secondary_nav_enabled #main-header.et-fixed-header {
+		top: 0 !important;
+	}
+	
+	#main-header.et-fixed-header .fixed-nav-only {
+		display: inline-block !important;
+	}
+	
+	#top-header.et-fixed-header {
+		display: none;
+	}
+	
+	.container.et_menu_container {
+	    height: 180px !important;
+		z-index: 100;
+	}
+	
+}
+
+#homepage-hero-image {
+	max-height: 21vw;
+	overflow-y: hidden;
+}
+
+#et-secondary-menu .et-cart-info {
+	display: none !important;
+}
+
+ol.tribe-list-widget li {
+	margin-bottom: 15px;
+	list-style: none !important;
+}
+
+ol.tribe-list-widget li h4.tribe-event-title {
+	line-height: 0px;
+}
