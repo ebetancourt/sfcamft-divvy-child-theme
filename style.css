@@ -5,7 +5,7 @@
  Author:
  Author URI:  
  Template:       Divi
- Version:        1.0.0
+ Version:        1.0.1
  License: 
  License URI: 
  Tags: 
@@ -155,5 +155,6 @@ ol.tribe-list-widget li {
 }
 
 ol.tribe-list-widget li h4.tribe-event-title {
-	line-height: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
 }
