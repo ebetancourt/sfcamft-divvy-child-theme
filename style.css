@@ -5,7 +5,7 @@
  Author:
  Author URI:  
  Template:       Divi
- Version:        1.0.1
+ Version:        1.0.2
  License: 
  License URI: 
  Tags: 
@@ -58,7 +58,7 @@ div#et-top-navigation {
 #main-footer {
     background-color: rgba(0,0,0,0);
     height: 30vw;
-    background-image: url(http://sfcamft.knightlabs.co/wp-content/uploads/2017/09/sfcamft-wave.svg);
+    background-image: url('https://sfcamft.knightlabs.co/wp-content/uploads/2017/09/sfcamft-wave.svg');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 10vw;
