@@ -66,20 +66,25 @@ div#et-top-navigation {
 }
 
 #footer-bottom {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 @media only screen and (max-width: 979px) {
     /* For mobile phones: */
     #logo {
-    	display: none;
+        display: none;
     }
-	#logo.second-logo {
-		display: inline-block !important;
-	}
+
+    #logo.second-logo {
+    	display: inline-block !important;
+    }
+	
+    .et_right_sidebar #sidebar {
+        display: none;
+    }
 }
 
 @media all and (min-width: 980px){
