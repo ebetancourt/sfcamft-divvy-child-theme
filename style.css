@@ -5,7 +5,7 @@
  Author:
  Author URI:  
  Template:       Divi
- Version:        1.0.7
+ Version:        1.0.8
  License: 
  License URI: 
  Tags: 
@@ -166,4 +166,9 @@ ol.tribe-list-widget li h4.tribe-event-title {
 
 .tml-field-wrap.tml-avatar-wrap {
 	display: none !important;
+}
+
+.entry-content ol {
+    padding: 0 0 10px 20px !important;
+    list-style-position: outside !important;
 }
