@@ -172,3 +172,19 @@ ol.tribe-list-widget li h4.tribe-event-title {
     padding: 0 0 10px 20px !important;
     list-style-position: outside !important;
 }
+
+#page-container {
+	position: relative;
+}
+
+#main-header {
+	z-index: 101;
+}
+
+#top-header {
+	z-index: 100;
+}
+
+#tribe-events-content-wrapper {
+	margin-top: 250px !important;
+}
